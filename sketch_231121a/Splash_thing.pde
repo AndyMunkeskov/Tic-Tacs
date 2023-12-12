@@ -9,9 +9,9 @@ void splashScreen() {
    - Splash Screen Details
    */
    background(255); //Testing only, not night mode friendly, full BLUE
-   divisions(); //Testing Only
+   //divisions(); //Testing Only
    splashScreenText();
-   keyPressingXO(); //See XO KeyPressing
+   //keyPressingXO(); //See XO KeyPressing
    if ( someoneWinsReset==false && counter<9 ) threeIn_Row(); //See Game Over
    if ( someoneWinsReset==false && counter>=9 ) gameOver( false, false, true);
    if ( someoneWinsReset==true ) println( "Game Over" );

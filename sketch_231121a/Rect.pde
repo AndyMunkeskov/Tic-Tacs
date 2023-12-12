@@ -1,4 +1,16 @@
-void divisions() {
+
+void Shape() {
+   square(sidetwo, sidetwo, squaresize);
+    square(sidethree, sidetwo, squaresize);
+    square(sidefour, sidetwo, squaresize);
+    square(sidetwo, sidethree, squaresize);
+    square(sidethree, sidethree, squaresize);
+    square(sidefour, sidethree, squaresize);
+    square(sidetwo, sidefour, squaresize);
+    square(sidethree, sidefour, squaresize);
+    square(sidefour, sidefour, squaresize);
+}
+  /*
   rect( gameSpaceX, gameSpaceY, gameSpaceWidth, gameSpaceHeight );
   rect( bottomButtonX, bottomButtonY, bottomButtonWidth, bottomButtonHeight ); //reset, quit
   rect( topButtonX, topButtonY, topButtonWith, topButtonHeight ); //
@@ -32,4 +44,6 @@ void divisions() {
   //rect(); //Share Button: export & restart with preference
   //rect(); //Share Button: personalization menu activation
   //rect(); //Personalization Menu
-} //End DIVs
+  /*
+   
+  } //End DIVs

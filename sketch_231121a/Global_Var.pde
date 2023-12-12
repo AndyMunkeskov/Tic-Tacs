@@ -1,6 +1,7 @@
 
 int appWidth, appHeight, smallDimension;
 int counter=0, xWinsInt, oWinsInt;
+float side, sidetwo, sidethree, sidefour, sidefive, sidesix, squaresize;
 //
 int titleX, titleY, titleWidth, titleHeight; //Layout rect()
 //
