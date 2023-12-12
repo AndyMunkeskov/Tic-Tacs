@@ -1,7 +1,4 @@
-Boolean OS_On=false;
-Boolean tX1=false, tX2=false, tX3=false, tX4=false, tX5=false, tX6=false, tX7=false, tX8=false, tX9=false;
-Boolean tO1=false, tO2=false, tO3=false, tO4=false, tO5=false, tO6=false, tO7=false, tO8=false, tO9=false;
-Boolean tOff1=false, tOff2=false, tOff3=false, tOff4=false, tOff5=false, tOff6=false, tOff7=false, tOff8=false, tOff9=false;
+
 //
 void setup() {
   //Display, based on Google Tic Tac Toe
@@ -9,7 +6,6 @@ void setup() {
   appWidth = width; //displayWidth
   appHeight = height; //displayHeight
   smallDimension = ( appWidth<appHeight ) ? appWidth : appHeight;
-  displayAlgorithm();
   population();
   //divisions();
   textSetup();

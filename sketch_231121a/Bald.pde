@@ -1,11 +1,8 @@
 /* Does this doe run easier with Arrays, Procedures, and Loops?
  */
 //
-int counter=0, xWinsInt, oWinsInt;
-Boolean xWinsBoolean=false, oWinsBoolean=false; //Must be reset to false in game reset
-Boolean addCounter1=true, addCounter2=true, addCounter3=true, addCounter4=true;
-Boolean addCounter5=true, addCounter6=true, addCounter7=true, addCounter8=true, addCounter9=true;
-Boolean someoneWinsReset=false;
+
+
 //
 /* Note: someoneWinsReset
  - tracks X & O wins by passing the appropriate Boolean Value

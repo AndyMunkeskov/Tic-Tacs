@@ -1,7 +1,6 @@
 //Global Variables for Text
 PFont generalFont;
 //
-int titleX, titleY, titleWidth, titleHeight; //Layout rect()
 String click = "Click the Screen";
 String restart = "Restart";
 String quit = "QUIT";
